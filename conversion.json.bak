@@ -1,0 +1,80 @@
+[
+  {
+    "from_unit": "celsius",
+    "to_unit": "fahrenheit",
+    "input_value": 100.0,
+    "output_value": 212.0
+  },
+  {
+    "from_unit": "kelvi",
+    "to_unit": "celsius",
+    "input_value": 100.0,
+    "error_message": "Satuan asal 'kelvi' tidak dikenali."
+  },
+  {
+    "from_unit": "celsius",
+    "to_unit": "fahrenheit",
+    "input_value": 100.0,
+    "output_value": 212.0
+  },
+  {
+    "from_unit": "celsius",
+    "to_unit": "fahrenheit",
+    "input_value": 100.0,
+    "output_value": 212.0
+  },
+  {
+    "from_unit": "cm",
+    "to_unit": "km",
+    "input_value": 16000.0,
+    "output_value": 0.16
+  },
+  {
+    "from_unit": "kg",
+    "to_unit": "gram",
+    "input_value": 1.0,
+    "output_value": 1000.0
+  },
+  {
+    "from_unit": "lbs",
+    "to_unit": "kg",
+    "input_value": 1.0,
+    "output_value": 0.45359237
+  },
+  {
+    "from_unit": "kg",
+    "to_unit": "gram",
+    "input_value": 1.0,
+    "output_value": 1000.0
+  },
+  {
+    "from_unit": "kg",
+    "to_unit": "celsius",
+    "input_value": 1.0,
+    "error_message": "Tidak dapat mengonversi satuan yang berbeda kategori: [berat] kg -> [suhu] celsius"
+  },
+  {
+    "from_unit": "kg",
+    "to_unit": "celsius",
+    "input_value": 1.0,
+    "error_message": "Tidak dapat mengonversi satuan yang berbeda kategori: [berat] kg -> [suhu] celsius"
+  },
+  {
+    "from_unit": "cm",
+    "to_unit": "km",
+    "input_value": 16000.0,
+    "output_value": 0.16
+  },
+  {
+    "from_unit": "celsis",
+    "to_unit": "kelvin",
+    "input_value": 100.0,
+    "error_message": "Satuan asal 'celsis' tidak dikenali. Apakah maksud Anda 'celsius'?"
+  },
+  {
+    "from_unit": "celsis",
+    "to_unit": "kelvin",
+    "input_value": 100.0,
+    "error_message": "Satuan asal 'celsis' tidak dikenali. Apakah maksud Anda 'celsius'?"
+  }
+]

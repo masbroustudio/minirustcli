@@ -1,0 +1,50 @@
+[
+  {
+    "satuan_asal": "celsius",
+    "satuan_tujuan": "fahrenheit",
+    "nilai_input": 100.0,
+    "nilai_output": 212.0
+  },
+  {
+    "satuan_asal": "kg",
+    "satuan_tujuan": "gram",
+    "nilai_input": 2.5,
+    "nilai_output": 2500.0
+  },
+  {
+    "satuan_asal": "kg",
+    "satuan_tujuan": "gram",
+    "nilai_input": 1.0,
+    "nilai_output": 1000.0
+  },
+  {
+    "satuan_asal": "cmm",
+    "satuan_tujuan": "km",
+    "nilai_input": 16000.0,
+    "pesan_error": "Satuan asal 'cmm' tidak dikenali. Apakah maksud Anda 'cm'?"
+  },
+  {
+    "satuan_asal": "cm",
+    "satuan_tujuan": "kmm",
+    "nilai_input": 16000.0,
+    "pesan_error": "Satuan tujuan 'kmm' tidak dikenali. Apakah maksud Anda 'km'?"
+  },
+  {
+    "satuan_asal": "cm",
+    "satuan_tujuan": "km",
+    "nilai_input": 16000.0,
+    "nilai_output": 0.16
+  },
+  {
+    "satuan_asal": "celsius",
+    "satuan_tujuan": "fahrenheit",
+    "nilai_input": 100.0,
+    "nilai_output": 212.0
+  },
+  {
+    "satuan_asal": "cm",
+    "satuan_tujuan": "celsius",
+    "nilai_input": 87.0,
+    "pesan_error": "Tidak dapat mengonversi satuan yang berbeda kategori: [panjang] cm -> [suhu] celsius"
+  }
+]

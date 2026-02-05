@@ -1,0 +1,17 @@
+# Ignore all markdown files
+*.md
+
+# Rust build artifacts
+target/
+minirustcli/target/
+
+# History files
+minirustcli/conversion.json
+minirustcli/conversion.json.bak
+minirustcli/riwayat_konversi.json
+minirustcli/riwayat_konversi.json.bak
+
+# Standard ignores
+**/*.rs.bk
+.DS_Store
+Thumbs.db

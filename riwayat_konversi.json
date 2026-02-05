@@ -1,0 +1,14 @@
+[
+  {
+    "satuan_asal": "celsius",
+    "satuan_tujuan": "fahrenheit",
+    "nilai_input": 100.0,
+    "nilai_output": 212.0
+  },
+  {
+    "satuan_asal": "celsis",
+    "satuan_tujuan": "fahrenheit",
+    "nilai_input": 100.0,
+    "pesan_error": "Satuan asal 'celsis' tidak dikenali. Apakah maksud Anda 'celsius'?"
+  }
+]
