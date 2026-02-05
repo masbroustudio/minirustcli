@@ -64,7 +64,17 @@ fn main() {
             // Mapping argumen
             let dari = from;
             let ke = to;
-            let nilai = value;
+            let nilai_str = value;
+
+            // Validasi input numerik manual untuk pesan error yang lebih baik
+            let nilai: f64 = match nilai_str.parse() {
+                Ok(n) => n,
+                Err(_) => {
+                    let pesan = format!("Nilai '{}' bukan angka yang valid. Harap masukkan angka (contoh: 10, 1.5, -5).", nilai_str);
+                    eprintln!("Error: [KESALAHAN] {}", pesan);
+                    process::exit(1);
+                }
+            };
 
             let opsi_satuan_asal = Satuan::dari_str(&dari);
             if opsi_satuan_asal.is_none() {

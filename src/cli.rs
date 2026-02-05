@@ -17,7 +17,7 @@ pub enum Commands {
         #[arg(long)]
         to: String,
         #[arg(long, allow_negative_numbers = true)]
-        value: f64,
+        value: String,
     },
     List,
     History,
