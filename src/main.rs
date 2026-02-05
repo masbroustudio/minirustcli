@@ -121,17 +121,13 @@ fn main() {
         }
         Commands::List => {
             println!("Satuan yang didukung:");
-            println!("1. [suhu] celsius");
-            println!("2. [suhu] fahrenheit");
-            println!("3. [suhu] kelvin");
-            println!("4. [panjang] cm");
-            println!("5. [panjang] inch");
-            println!("6. [panjang] km");
-            println!("7. [panjang] miles");
-            println!("8. [berat] kg");
-            println!("9. [berat] gram");
-            println!("10. [berat] lbs");
-            println!("11. [berat] ounce");
+            println!("1. [suhu] celsius, fahrenheit, kelvin");
+            println!("2. [panjang] cm, inch, km, miles");
+            println!("3. [berat] kg, gram, lbs, ounce");
+            println!("4. [volume] liter, gallon, ml");
+            println!("5. [waktu] detik, menit, jam");
+            println!("6. [kecepatan] km/h, mph, m/s");
+            println!("7. [data] byte, kb, mb, gb");
         }
         Commands::History => {
             history::tampilkan_riwayat();

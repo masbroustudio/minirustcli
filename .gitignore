@@ -3,13 +3,12 @@
 
 # Rust build artifacts
 target/
-minirustcli/target/
 
 # History files
+conversion.json
 conversion.json.bak
-minirustcli/conversion.json.
+riwayat_konversi.json
 riwayat_konversi.json.bak
-minirustcli/riwayat_konversi.json.bak
 
 # Standard ignores
 **/*.rs.bk
