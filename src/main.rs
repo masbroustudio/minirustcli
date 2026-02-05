@@ -39,7 +39,7 @@ fn saran_satuan(input: &str) -> Option<String> {
             jarak_min = jarak;
             cocok_terbaik = Some(nama);
         }
-        // Periksa simbol (misal "kg", "cm")
+        // Periksa (misal "kg", "cm")
         let simbol = satuan.simbol().replace("°", ""); // Hapus simbol derajat
         let jarak_simbol = hitung_jarak_levenshtein(input.to_lowercase().as_str(), &simbol.to_lowercase());
         if jarak_simbol < jarak_min {
@@ -48,7 +48,7 @@ fn saran_satuan(input: &str) -> Option<String> {
         }
     }
 
-    // Hanya sarankan jika jarak kecil relatif terhadap panjang string
+    // Sarankan jika jarak kecil relatif terhadap panjang string
     if jarak_min <= 3 {
         cocok_terbaik.map(|s| s.to_string())
     } else {
@@ -66,7 +66,7 @@ fn main() {
             let ke = to;
             let nilai_str = value;
 
-            // Validasi input numerik manual untuk pesan error yang lebih baik
+            // Validasi input numerik manual untuk pesan error
             let nilai: f64 = match nilai_str.parse() {
                 Ok(n) => n,
                 Err(_) => {
@@ -102,7 +102,7 @@ fn main() {
 
             match converter::konversi(nilai, satuan_asal, satuan_tujuan) {
                 Ok(hasil) => {
-                    // Hitung konversi ke satuan lain dalam kategori yang sama
+                    // Konversi satuan asal ke satuan tujuan
                     let mut lainnya = Vec::new();
                     for satuan in satuan_asal.kategori().satuan_satuan() {
                         if satuan != satuan_asal && satuan != satuan_tujuan {
